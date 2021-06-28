@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "barrios",
+  "info": {
+    "name": "Barrios"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "ubicacion": {
+      "type": "string"
+    }
+  }
+}

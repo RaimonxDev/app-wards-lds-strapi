@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/minutas",
+      "handler": "minutas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/minutas/count",
+      "handler": "minutas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/minutas/:id",
+      "handler": "minutas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/minutas",
+      "handler": "minutas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/minutas/:id",
+      "handler": "minutas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/minutas/:id",
+      "handler": "minutas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

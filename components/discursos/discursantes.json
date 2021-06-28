@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_discursos_discursantes",
+  "info": {
+    "name": "Discursantes",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "tema": {
+      "type": "string"
+    }
+  }
+}

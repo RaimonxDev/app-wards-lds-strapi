@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipos-de-minutas",
+      "handler": "tipos-de-minuta.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipos-de-minutas/count",
+      "handler": "tipos-de-minuta.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipos-de-minutas/:id",
+      "handler": "tipos-de-minuta.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipos-de-minutas",
+      "handler": "tipos-de-minuta.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipos-de-minutas/:id",
+      "handler": "tipos-de-minuta.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipos-de-minutas/:id",
+      "handler": "tipos-de-minuta.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

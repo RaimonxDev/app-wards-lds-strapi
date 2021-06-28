@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/barrios",
+      "handler": "barrios.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/barrios/count",
+      "handler": "barrios.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/barrios/:id",
+      "handler": "barrios.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/barrios",
+      "handler": "barrios.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/barrios/:id",
+      "handler": "barrios.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/barrios/:id",
+      "handler": "barrios.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipos_de_minutas",
+  "info": {
+    "name": "Tipos de Minuta"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "minuta": {
+      "type": "string"
+    },
+    "minutas": {
+      "via": "tipos_de_minuta",
+      "collection": "minutas"
+    }
+  }
+}

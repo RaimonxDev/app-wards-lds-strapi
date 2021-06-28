@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "minutas",
+  "info": {
+    "name": "minutas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dirige": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "datetime"
+    },
+    "preludio_musical": {
+      "type": "string"
+    },
+    "primer_himno": {
+      "type": "string"
+    },
+    "primera_oracion": {
+      "type": "string"
+    },
+    "himno_sacramental": {
+      "type": "string"
+    },
+    "ultimo_himno": {
+      "type": "string"
+    },
+    "ultima_oracion": {
+      "type": "string"
+    },
+    "anuncios": {
+      "type": "text"
+    },
+    "discursantes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "discursos.discursantes"
+    },
+    "relevos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "relevos.relevos"
+    },
+    "tipos_de_minuta": {
+      "model": "tipos-de-minuta",
+      "via": "minutas"
+    },
+    "llamamientos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "llamamientos.llamamientos"
+    }
+  }
+}

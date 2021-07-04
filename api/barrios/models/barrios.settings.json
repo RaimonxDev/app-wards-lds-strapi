@@ -22,6 +22,10 @@
       "via": "barrio",
       "plugin": "users-permissions",
       "collection": "user"
+    },
+    "minutas": {
+      "via": "barrio",
+      "collection": "minutas"
     }
   }
 }

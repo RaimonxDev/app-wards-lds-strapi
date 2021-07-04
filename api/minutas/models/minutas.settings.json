@@ -53,10 +53,14 @@
       "model": "tipos-de-minuta",
       "via": "minutas"
     },
-    "llamamientos": {
+    "sostenimientos": {
       "type": "component",
       "repeatable": true,
-      "component": "llamamientos.llamamientos"
+      "component": "sostenimientos.llamamientos"
+    },
+    "barrio": {
+      "model": "barrios",
+      "via": "minutas"
     }
   }
 }

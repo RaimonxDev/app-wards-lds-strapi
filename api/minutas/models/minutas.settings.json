@@ -68,6 +68,9 @@
     "completa": {
       "type": "boolean",
       "default": false
+    },
+    "reconocimientos": {
+      "type": "string"
     }
   }
 }

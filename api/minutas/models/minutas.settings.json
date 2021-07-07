@@ -61,6 +61,13 @@
     "barrio": {
       "model": "barrios",
       "via": "minutas"
+    },
+    "preside": {
+      "type": "string"
+    },
+    "completa": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

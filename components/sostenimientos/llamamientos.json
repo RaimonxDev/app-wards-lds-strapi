@@ -2,14 +2,15 @@
   "collectionName": "components_llamamientos_llamamientos",
   "info": {
     "name": "Llamamientos",
-    "icon": "marker"
+    "icon": "marker",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "nombre": {
       "type": "string"
     },
-    "llamamiento": {
+    "details": {
       "type": "string"
     }
   }

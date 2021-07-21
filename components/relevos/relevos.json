@@ -2,14 +2,15 @@
   "collectionName": "components_relevos_relevos",
   "info": {
     "name": "Relevos",
-    "icon": "exclamation"
+    "icon": "exclamation",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "nombre": {
       "type": "string"
     },
-    "llamamiento": {
+    "details": {
       "type": "string"
     }
   }
